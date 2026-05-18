@@ -6,10 +6,10 @@ import { collection, query, where, orderBy, onSnapshot, doc, updateDoc } from 'f
 import { handleFirestoreError, OperationType } from '@/lib/firestore-errors';
 import { HelpRequest, UserProfile } from '@/types';
 import { HelpRequestCard } from '@/components/features/HelpRequestCard';
-import { Button } from '@/components/ui/Button';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/Card';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { toast } from 'sonner';
 import { User, MapPin, Calendar, Edit3, Save, X, Settings } from 'lucide-react';
