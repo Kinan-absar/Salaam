@@ -99,7 +99,7 @@ export const FeedPage: React.FC = () => {
       {/* Hero Section */}
       <div className="relative h-64 sm:h-80 rounded-[2.5rem] overflow-hidden shadow-2xl mb-12">
         <img 
-          src="/src/assets/images/sweida_mountains_olives_hero_1779101608779.png" 
+          src="/images/hero.png" 
           alt="Sweida Mountains" 
           className="absolute inset-0 w-full h-full object-cover"
         />
