@@ -6,10 +6,10 @@ import { handleFirestoreError, OperationType } from '@/lib/firestore-errors';
 import { HelpRequest, UserProfile, RequestStatus } from '@/types';
 import { HelpRequestCard } from '@/components/features/HelpRequestCard';
 import { useAuth } from '@/firebase/AuthContext';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import { Plus, Search, Filter } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/components/ui/Input';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 export const FeedPage: React.FC = () => {

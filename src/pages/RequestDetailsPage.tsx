@@ -6,10 +6,10 @@ import { doc, getDoc, collection, addDoc, onSnapshot, query, orderBy, updateDoc 
 import { handleFirestoreError, OperationType } from '@/lib/firestore-errors';
 import { HelpRequest, HelpOffer, UserProfile, RequestStatus, HelpCategory } from '@/types';
 import { useAuth } from '@/firebase/AuthContext';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { formatDistanceToNow } from 'date-fns';
