@@ -5,10 +5,10 @@ import { db } from '@/firebase/config';
 import { collection, query, orderBy, onSnapshot, updateDoc, doc } from 'firebase/firestore';
 import { handleFirestoreError, OperationType } from '@/lib/firestore-errors';
 import { Notification } from '@/types';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/Card';
 import { formatDistanceToNow } from 'date-fns';
 import { Bell, BellOff, Check, Heart, HelpCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import { toast } from 'sonner';
 
 export const NotificationsPage: React.FC = () => {

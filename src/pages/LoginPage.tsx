@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { auth, googleProvider } from '@/firebase/config';
 import { signInWithPopup, signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate, Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/Button';
+import { Input } from '@/components/ui/Input';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/Card';
 import { toast } from 'sonner';
 
 export const LoginPage: React.FC = () => {
